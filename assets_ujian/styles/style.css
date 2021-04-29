@@ -1,0 +1,197 @@
+                @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+                /*body awal*/
+                
+                body {
+                    font-family: 'Quicksand', sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    background-color: #00c7ed;
+                }
+                
+                h2 {
+                    color: #00a2c6
+                }
+                
+                h3 {
+                    color: #00a2c6;
+                    font-size: 50px;
+                }
+                /*body selesai*/
+                /*awal header */
+                
+                header {
+                    width: 100%;
+                    height: auto;
+                    text-align: center;
+                    display: inline;
+                }
+                
+                .jumbotron {
+                    font-size: 20px;
+                    padding: 60px;
+                    background-color: black;
+                    text-align: center;
+                    color: white;
+                }
+                
+                .logo {
+                    float: left;
+                }
+                
+                .logo img {
+                    border: solid gray;
+                    border-radius: 100px 10px 100px 10px;
+                }
+                
+                .nama-toko {}
+                /*header selesai*/
+                /*awal nav */
+                
+                nav {
+                    width: 100%;
+                    background-color: #00a2c6;
+                    height: 50px;
+                    padding: 10px;
+                    position: sticky;
+                    top: 0;
+                    text-align: left;
+                    box-shadow: seagreen;
+                }
+                
+                nav a {
+                    font-size: 18px;
+                    font-weight: 400;
+                    text-decoration: none;
+                    color: white;
+                }
+                
+                nav li {
+                    display: inline;
+                    list-style-type: none;
+                    margin-right: 20px;
+                }
+                
+                nav li :hover {
+                    background-color: red;
+                    padding: 30px;
+                }
+                /*nav selesai*/
+                /*awal main */
+                
+                main {
+                    width: 100%;
+                    height: auto;
+                }
+                /*main selesai*/
+                /*awal content*/
+                
+                content {
+                    width: 80%;
+                    height: auto;
+                    background-color: #00c7ed;
+                    float: left;
+                }
+                
+                #koleksi-hijab {
+                    text-align: center;
+                }
+                
+                .thumbnail {
+                    text-align: center;
+                    padding: 10px;
+                    width: 225px;
+                    margin: 20px;
+                    float: left;
+                    border: solid gray;
+                }
+                
+                .thumbnail img {
+                    width: 80%;
+                    border-radius: 20px 5px 20px 5px;
+                }
+                
+                .thumbnail:hover {
+                    border: solid pink;
+                }
+                
+                #kontak-kami {
+                    text-align: center;
+                }
+                
+                #kontak-kami img {
+                    border-radius: 20px 5px 20px 5px;
+                    box-shadow: black;
+                }
+                /*content selesai*/
+                /*awal side */
+                
+                aside {
+                    width: 20%;
+                    height: auto;
+                    background-color: #00c7ed;
+                    float: left;
+                }
+                
+                aside img {
+                    border-radius: 100%;
+                    width: 180px;
+                    height: 180px;
+                    box-shadow: red;
+                    center;
+                }
+                /*side selesai*/
+                /* footer */
+                
+                footer {
+                    color: white;
+                    background-color: #00a2c6;
+                    text-align: center;
+                    font-weight: bold;
+                    height: 50px;
+                    width: 100%;
+                    padding: 10px;
+                    clear: left;
+                }
+                /*footer selesai */
+                /*awal article*/
+                
+                article {
+                    background-color: yellowgreen;
+                    padding: 20px;
+                    border-radius: 20px 5px 20px 5px;
+                    margin: 20px;
+                    overflow: auto;
+                }
+                /*article selesai*/
+                /*fungsi lainnya*/
+                
+                .featured-image {
+                    width: 100%;
+                    max-height: 300px;
+                    object-fit: cover;
+                    object-position: center;
+                }
+                
+                .card {
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                    border-radius: 5px;
+                    padding: 20px;
+                    margin-top: 20px;
+                }
+                
+                #up {
+                    text-align: right;
+                    clear: left;
+                }
+                
+                @media screen and (max-width: 1000px) {
+                    content,
+                    aside {
+                        width: 100%;
+                        padding: 0;
+                    }
+                }
+                
+                a {
+                    text-decoration: none;
+                }
